@@ -97,3 +97,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+.DS_Store
+
+ans/exercise/1/fizzbuzz\.txt
