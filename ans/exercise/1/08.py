@@ -2,6 +2,5 @@
 #     - 例題
 #       - 入力: "abcdefg"
 #       - 出力: "gfedcba"
-
-s = input()
-print(s[::-1])
+print(input()[::-1])
+# 20

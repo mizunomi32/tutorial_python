@@ -8,8 +8,5 @@
 # 	    2 b
 # 	    3 c
 #       ```
-s = input()
-n = 0
-for i in s:
-    n = n + 1
-    print(str(n)+' '+str(i))
+print("\n".join([str(i+1)+' '+str(n) for i,n in enumerate(input())]))
+# 69

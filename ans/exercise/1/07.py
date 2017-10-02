@@ -1,15 +1,4 @@
 # 07. 3.で作ったFizzBuzzをファイルに出力せよ．
 #     - ファイル名は"fizzbuzz.txt"と固定する．
-x = int(input())
-f = open('fizzbuzz.txt', 'w')
-for i in range(x):
-    if (i+1) % 3 == 0 and (i+1) % 5 == 0:
-        f.write('FizzBuzz')
-    elif (i+1) % 3 == 0:
-        f.write('Fizz')
-    elif (i+1) % 5 == 0:
-        f.write('Buzz')
-    else:
-        f.write(str(i+1))
-    f.write('\n')
-f.close()
+f=open('fizzbuzz.txt','w');f.write("\n".join(["FizzBuzz"if n%15==0 else"Fizz"if n%3==0 else"Buzz"if n%5==0 else str(n) for n in range(1,int(input())+1)]));f.close()
+# 164

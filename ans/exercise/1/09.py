@@ -2,6 +2,5 @@
 #     - 例題
 #       - 入力: "abc"
 #       - 出力: 3
-
-s = input()
-print(len(s))
+print(len(input()))
+# 19
